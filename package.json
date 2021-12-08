@@ -4,7 +4,7 @@
   "description": "Jest",
   "main": "main.js",
   "scripts": {
-    "test": "npm jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
