@@ -2,7 +2,7 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "Jest",
-  "main": "mail.js",
+  "main": "main.js",
   "scripts": {
     "test": "npm jest"
   },

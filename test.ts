@@ -1,4 +1,4 @@
-const calculator= require ('./main.ts');
+const {calculator}= require ('/calculator')
 
 test ( "Calculator should be return addition of two numbers "), function(){
 expect (calculator (1, "+", 2)).toBe (3)
