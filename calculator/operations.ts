@@ -1,14 +1,14 @@
-type Operation = '+' | '-' | '*' | '/';
-
-export const calculator = (a: number, op: Operation, b: number): number => {
+export const calculator = (a: number, op: string, b: number): number => {
+  let result: number = 0;
   switch (op) {
     case '*':
-      return a * b;
+      result = a * b;
     case '+':
-      return a + b;
+      result = a + b;
     case '-':
-      return a - b;
+      result = a - b;
     case '/':
-      return a / b;
+      result = a / b;
   }
+  return result;
 }

@@ -1,4 +1,4 @@
-const {calculator}= require ('/calculator')
+const {calculator}= require ('../calculator/operations')
 
 test ( "Calculator should be return addition of two numbers "), function(){
 expect (calculator (1, "+", 2)).toBe (3)
